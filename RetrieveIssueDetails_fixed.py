@@ -1,5 +1,5 @@
 import urllib, urllib2, json, sys, os.path, getpass
-
+"""Adding a random comment to check commit changes from Got to Polarion"""
 def getToken(host, port, user):
     ltoken = os.path.normpath(os.path.expanduser("~/.klocwork/ltoken"))
     ltokenFile = open(ltoken, 'r')
